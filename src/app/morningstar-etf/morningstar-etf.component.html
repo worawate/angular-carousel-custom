@@ -1,0 +1,9 @@
+<app-carousel>
+  <ng-container *ngFor="let item of list">
+    <ng-container *appCarouselItem>
+      <div style="width:100px; height:112px;">
+        {{ item.title }}
+      </div>
+    </ng-container>
+  </ng-container>
+</app-carousel>

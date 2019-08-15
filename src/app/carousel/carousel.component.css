@@ -1,0 +1,21 @@
+.carousel-wrapper{
+  width:90%;
+  overflow: hidden;
+}
+
+.carousel-inner{
+  width:6000px;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+ul li{
+  text-align:center;
+  line-height:110px;
+  margin: 0;
+  background-color: #DEDEDE;
+}
